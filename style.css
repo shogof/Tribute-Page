@@ -4,5 +4,9 @@ body {
   background-repeat: no-repeat;
   background-size: 100% 500px;
   background-position: 0 60px;
-  text-align: center;
+}
+#main-image {
+  width: 370px;
+  height: auto;
+  margin-top: 60px;
 }
