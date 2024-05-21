@@ -11,8 +11,19 @@ body {
   text-align: center;
   font-size: 40px;
 }
+
 #main-image {
   width: 365px;
   height: auto;
   margin-top: 5px;
+}
+
+#main-section {
+  display: flex;
+}
+
+#about {
+  color: white;
+  padding: 50px 30px;
+  text-align: justify;
 }
