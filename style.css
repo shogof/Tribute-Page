@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+  background-image: url(Images/des.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 500px;
+  background-position: 0 60px;
+  text-align: center;
+}
