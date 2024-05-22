@@ -3,19 +3,20 @@ body {
   background-image: url(Images/des.jpeg);
   background-repeat: no-repeat;
   background-size: 100% 500px;
-  background-position: 0 60px;
+  background-position: 0 80px;
 }
 
 #main-title {
   margin: 10px 0 0 0;
   text-align: center;
-  font-size: 40px;
+  font-size: 45px;
 }
 
 #main-image {
   width: 365px;
   height: auto;
-  margin-top: 5px;
+  margin-top: 20px;
+  border-radius: 0;
 }
 
 #main-section {
@@ -26,4 +27,16 @@ body {
   color: white;
   padding: 50px 30px;
   text-align: justify;
+}
+
+table {
+  margin: 50px auto;
+  padding: 10px;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  margin-left: 10px;
+  border-radius: 15px;
 }
