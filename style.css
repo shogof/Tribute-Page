@@ -3,7 +3,7 @@ body {
   background-image: url(Images/des1.jpeg);
   background-repeat: no-repeat;
   background-size: contain;
-  background-size: 100% 850px;
+  background-size: 100% 840px;
   background-position: 0 80px;
 }
 
@@ -22,19 +22,17 @@ body {
   max-width: 100%;
   width: 400px;
   height: auto;
-  /* height: 300px; */
   margin-top: 30px;
   border-radius: 0;
   display: block;
-  margin: 0 auto; /* Center the image */
+  margin: 0 auto;
 }
 
 img {
   display: block;
-  max-width: 100%; /* Set max-width of image to 100% */
-  height: auto; /* Set height to auto for responsive resizing */
-  margin: 0 auto; /* Center the image */
-  /* border-radius: 50%; */
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
 }
 
 #image {
@@ -60,8 +58,8 @@ table {
 }
 
 td {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
 }
 
 td img {
@@ -91,7 +89,8 @@ footer {
   box-shadow: -1px 1px 10px white;
 }
 
-a:hover,#tribute-link:hover {
+a:hover,
+#tribute-link:hover {
   background-color: rgba(255, 255, 255, 0.8);
   color: black;
   box-shadow: none;
@@ -123,4 +122,3 @@ a:hover,#tribute-link:hover {
   justify-content: space-around;
   margin-left: 100px;
 }
-
