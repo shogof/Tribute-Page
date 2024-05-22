@@ -12,11 +12,15 @@ body {
   font-size: 45px;
 }
 
-img {
+td img {
   max-width: 100%;
   height: 300px;
   margin-left: 10px;
   border-radius: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  opacity: 100%;
 }
 
 #main-image {
