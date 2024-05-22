@@ -1,8 +1,9 @@
 body {
   margin: 0;
-  background-image: url(Images/des.jpeg);
+  background-image: url(Images/des1.jpeg);
   background-repeat: no-repeat;
-  background-size: 100% 500px;
+  background-size: contain;
+  background-size: 100% 850px;
   background-position: 0 80px;
 }
 
@@ -12,40 +13,63 @@ body {
   font-size: 45px;
 }
 
-td img {
-  max-width: 100%;
-  height: 300px;
-  margin-left: 10px;
-  border-radius: 15px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-  opacity: 100%;
-}
-
-#main-image {
-  max-width: 365px;
-  height: auto;
-  margin-top: 20px;
-  border-radius: 0;
-}
-
-#main-section {
-  display: flex;
-}
-
-#about {
+#main {
+  text-align: center;
   color: white;
+}
+
+#img-div {
+  max-width: 100%;
+  width: 400px;
+  height: auto;
+  /* height: 300px; */
+  margin-top: 30px;
+  border-radius: 0;
+  display: block;
+  margin: 0 auto; /* Center the image */
+}
+
+img {
+  display: block;
+  max-width: 100%; /* Set max-width of image to 100% */
+  height: auto; /* Set height to auto for responsive resizing */
+  margin: 0 auto; /* Center the image */
+  /* border-radius: 50%; */
+}
+
+#image {
+  margin-top: 30px;
+}
+
+#img-caption {
+  margin-top: 10px;
+  font-style: italic;
+  color: #999;
+  text-align: center;
+}
+
+#tribute-info {
   padding: 50px 30px;
-  text-align: justify;
+  text-align: center justify;
 }
 
 table {
-  margin: 50px auto;
+  margin: 50px auto 50px auto;
   padding: 10px;
+  border: 1px solid white;
 }
 
-#foter {
+td {
+  width: 200px;
+  height: 200px;
+  /* background-color: blueviolet; */
+}
+
+td img {
+  border-radius: 50%;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
+}
+#footer {
   background-color: black;
   width: 100%;
   height: 70px;
@@ -66,6 +90,7 @@ a {
   border: 1px solid white;
   box-shadow: -1px 1px 10px white;
 }
+
 a:hover {
   background-color: rgba(255, 255, 255, 0.8);
   color: black;
@@ -74,9 +99,15 @@ a:hover {
   border: 1px solid rgb(255, 255, 255);
 }
 
-#img-caption {
-  margin-top: 10px;
-  font-style: italic;
-  color: #999;
+#main-section {
+  display: flex;
+  flex-direction: column;
+}
+
+#title {
+  margin: 10px 0 0 0;
   text-align: center;
+  font-size: 45px;
+  color: rgb(9, 9, 9);
+  text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.9);
 }
